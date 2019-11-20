@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 8</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+      <div class="row">
+         <div class="col-6">
+
+        <label for ="note1"   > Mathematiques : </label>
+        <input type="number"  name="note[]" id="note1" value="<?php if(isset($_POST['note1[]'])) { echo htmlentities($_POST['note1[]']);}?>"/> </br> 
+
+        <label for ="note2"  > Francais : </label> 
+        <input type="number" name="note[]" id="note2" > </br>
+  
+        <label for ="note3"> Espagnol : </label> 
+        <input type="number" name="note[]" id="note3" > </br> 
+
+        <label for ="note4" > Economie : </label> 
+        <input type="number" name="note[]" id="note4" > </br> 
+
+        <label for ="note5" > Physique-chimie:  </label> 
+        <input type="number" name="note[]" id="note5" > </br>
+
+        <label for ="note6"  > Art-plastique : </label> 
+        <input type="number" name="note[]" id="note6" > </br>
+
+        <label for ="note7"  > Musique </label> 
+        <input type="number" name="note[]" id="note7" > </br> 
+
+
+
+    </br>
+    <input type=submit value="Calculer la moyenne" id="MG"></input></br> </br>
+    Moyenne générale : <input type="text" value=""  id="moyenne"></br>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
