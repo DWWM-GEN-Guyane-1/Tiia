@@ -10,7 +10,7 @@
     <?php
     
     echo  
-      $nom = 'cynthia';    // Type string (chaine de caractères)
+      $nom = 'cynthia';   
     ?>
 
 </body>
