@@ -9,7 +9,7 @@
 <?php
 
 $string = 'string';
-$integer = (int) 3;
+$integer = (2/3);
 $booléan = true;
 $float = 1.5;
 
