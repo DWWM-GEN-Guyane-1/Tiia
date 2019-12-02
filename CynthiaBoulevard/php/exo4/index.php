@@ -10,7 +10,7 @@
 
 $string = 'string';
 $integer = (2/3);
-$booléan = true;
+$boolean = true;
 $float = 1.5;
 
 
@@ -20,7 +20,7 @@ echo '<br/>';
 echo $integer;
 echo '<br/>'; 
 
-echo $booléan;
+echo $boolean;
 echo '<br/>'; 
 
 echo $float;
