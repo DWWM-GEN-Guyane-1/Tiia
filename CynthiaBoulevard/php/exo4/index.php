@@ -26,18 +26,6 @@ echo '<br/>';
 echo $float;
 echo '<br/>'; 
 
-
-
-
-
-  
-
-
-
-
-
-  
-
 ?>
 </body>
 </html>
