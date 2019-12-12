@@ -1,0 +1,94 @@
+
+/* navbarr */
+
+.navbarr
+
+{
+    margin-right:200px;
+    margin-left:200px;
+}
+
+
+/* texte sur image fond partie1 */
+
+.txtimg
+  {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: -50px 0px 0px 0px;
+    color:white;
+  } 
+
+  /* grostitre */
+
+  .titreprin
+
+  {
+    font-size: 4em;
+
+  }
+
+
+ .ssti
+ {
+    font-size: 1.3em;
+ }
+
+/* boutons */
+ #bout1
+ {
+     background-color: white;
+     border-radius: 0.5em;
+ }
+
+ #bout2
+ {
+     background-color: white;
+     border-radius: 0.5em;
+ }
+
+ #bout3
+ {
+     background-color: white;
+     border-radius: 0.5em;
+ }
+
+
+
+
+ /* partie colonne */
+
+
+ /* ligne1 */
+
+ .col1
+ {
+    margin-right:200px;
+    margin-left:200px;
+ }
+
+
+ .col2
+ {
+    margin-right:200px;
+    margin-left:200px;
+ }
+
+
+ .col3
+ {
+    margin-right:200px;
+    margin-left:200px;
+ }
+
+
+#img1
+{
+    margin-right:200px;
+    margin-top:200px;
+}
+
+

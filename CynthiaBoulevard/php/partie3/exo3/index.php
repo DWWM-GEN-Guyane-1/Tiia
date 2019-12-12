@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Exo2</title>
+    <title>Exo3</title>
 </head>
 <body>
 <?php
@@ -22,18 +22,6 @@ else
 }
 
 
-
-// $isEasy = true;
-
-
-// if ($isEasy = false)
-// {
-    // echo 'difficile';
-// }
-// else 
-// {
-    // echo 'facile';
-// }
 
 
 

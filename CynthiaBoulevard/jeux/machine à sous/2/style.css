@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+}
+
+
+/* fond page entière */
+body
+{
+	background-color: #424242;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* titre machine à sous  */
+
+section#status
+{
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #37474F;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+/* fond rouge  */
+#co
+{
+	border-radius: 5px;
+	background-color: #EF5350;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+    margin-left: calc((100% - 580px) / 2);
+    width: 550px;
+
+}
+
+
+/* fond blanc images  */
+#slot
+{
+	border-radius: 10px;
+    background-color: #FAFAFA;
+    margin-top: -30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+    text-align: center;
+
+}
+
+/* bouton jouer */
+#bouton{
+
+    border-radius: 5px;
+	background-color:yellow;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: calc((100% - 580px) / 2);
+	width: 550px;
+
+
+}
+
+
+
+section#info{
+	background-color: #616161;
+	padding-left: 12px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+	animation-duration: 1s;
+	color: #BDBDBD;
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: none;
+}
+
+/* les images  */
+#slot1, #slot2, #slot3{
+    display: inline-block;
+    margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-size: 150px;
+	width: 150px;
+    height: 150px;
+   
+}
+.a1{
+	background-image: url("images/cerise.jpg");
+}
+.a2{
+	background-image: url("images/argent.jpg");
+}
+.a3{
+	background-image: url("images/cloche.jpg");
+}
+.a4{
+	background-image: url("images/roulette.jpg");
+}
+
+/* a effacer apres véfif */
+.a5{
+	background-image: url("Tiia/sacargent.jpg");
+}
+.a6{
+	background-image: url("Tiia/caca.jpeg");
+}
+.a7{
+	background-image: url("Tiia/dès.jpeg");
+}

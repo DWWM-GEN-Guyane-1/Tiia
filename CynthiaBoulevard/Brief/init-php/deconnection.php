@@ -4,6 +4,8 @@
         <!-- importer le fichier de style -->
         <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
     </head>
+
+    
     <body style='background:#fff;'>
         <div id="content">
             

@@ -1,4 +1,7 @@
+
 <html>
+
+
     <head>
        <meta charset="utf-8">
         <!-- importer le fichier de style -->
@@ -7,12 +10,15 @@
 
 
     <body>
+
+   
+
     
         <div id="container">
 
             <!-- zone de connexion -->
             
-            <form action="verification.php"  method="post" >
+            <form action="index.php"  method="post" >
 
                 <h1>Connexion</h1>
                 
@@ -29,9 +35,55 @@
                 <input type="submit" value='LOGIN' name="sbmt">
             </form>
 
-
-<!----------------------------------------------------------------------------------------------------->
-
         </div>
+
+<!---------------------------------------------------------------------------------------------------->
+
+
+<?php
+
+$array = 
+[
+"lulu" => "lulu973",
+"jojo" => "jojo973",
+"nana" => "nana973",
+"soso" => "soso973",
+"vivi" => "vivi973",
+"kath" => "kath973",
+];
+
+
+ if(array_key_exists($_POST['username'], $array))
+{
+
+        echo 'username OK';
+
+
+
+     if($_POST['password'] == $array[$_POST['username']])
+
+     {
+        echo 'password OK';
+        header("Location:verification.php");
+
+     }
+
+      else 
+
+      {
+        echo 'password incorrecte';
+      }
+}
+
+else 
+
+   {
+      echo 'saisie incorrecte';
+   }
+
+
+   ?>
+
+
     </body>
 </html>

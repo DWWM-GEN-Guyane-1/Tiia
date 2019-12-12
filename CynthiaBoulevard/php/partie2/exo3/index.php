@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Exo2</title>
+    <title>Exo3</title>
 </head>
 <body>
 <?php
 
 
-$isEasy = true;
+$age = ;
+$genre = ;
 
 
 if ($isEasy = true)
